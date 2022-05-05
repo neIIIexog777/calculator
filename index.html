@@ -8,7 +8,8 @@
     <title>calculator</title>
 </head>
 <body>
-    <div class="main_calc_block">
+    <div class="wrapper">
+    <div class="main_calc_block" id="main_calc_block">
 
         <table border="0" cellspacing="4" cellpadding="4" style="width: 100%;">
             <tr>
@@ -54,13 +55,13 @@
         
          </table>
          
-            <button onclick="add_item()" class="adding_item">+</button>
+            
          
-            <button onclick="delete_item()" class="delete_item">X</button>
+            
     </div>
     <div id="new_calc_block"></div>
-
-    
+    <button id="adding_item" class="adding_item">+</button>
+</div>
     <script src="main.js"></script>
 </body>
 </html>
